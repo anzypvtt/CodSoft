@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fcf4f4;
+    font-size: 18px;
+}
+
+#hero {
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    color: #433771;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+
+.cta-button {
+    background-color: #e76f51;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.destination img {
+    width: 120%;
+    border-radius: 6px;
+}
+
+.destination h3 {
+    font-size: 30px;
+}
+
+#newsletter form {
+    display: flex;
+    justify-content: center;
+}
+
+#newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#newsletter button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2a9d8f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
